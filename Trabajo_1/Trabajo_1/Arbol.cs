@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Trabajo_1
 {
@@ -88,13 +89,61 @@ namespace Trabajo_1
 			Console.Write(this.dato + " ");
 		}
 	
-		public int contarHojas() {
-			return 0;
-		}
-		
-		public void recorridoEntreNiveles(int n,int m) {
-		}
 
-	
-	}
+		//Hacemos uso del bool esHoja => NO TIENE HIJOS
+		public int contarHojas() {
+		 // Si el nodo es una hoja, devuelve 1
+		    if (esHoja()) {
+		        return 1;
+		    }
+		
+		    // Contar las hojas lado izquierdo
+		    int hojasIzq = 0;
+		    if (this.hijoIzquierdo != null) {
+		        hojasIzq = this.hijoIzquierdo.contarHojas();
+		    }
+		
+		    // Contar las hojas lado derecho
+		    int hojasDer = 0;
+		    if (this.hijoDerecho != null) {
+		        hojasDer = this.hijoDerecho.contarHojas();
+		    }
+		
+		    // Sumar las hojas de ambos lados
+		    return hojasIzq + hojasDer;
+        }
+
+
+        public void recorridoEntreNiveles(int n, int m){
+            // Usar una lista para simular la cola
+            List<(ArbolBinario<T>, int)> lista = new List<(ArbolBinario<T>, int)>();
+            lista.Add((this, 0)); // Agregar el nodo raíz con nivel 0
+
+            while (lista.Count > 0)
+            {
+                (ArbolBinario<T> nodo, int nivel) = lista[0]; // Obtener el primer elemento de la lista
+                lista.RemoveAt(0); // Eliminar el primer elemento de la lista (simulando un desencolado)
+
+                // Verificar que el nivel del nodo esté entre n y m
+                if (nivel >= n && nivel <= m)
+                {
+                    Console.Write(nodo.dato + " ");
+                }
+
+                // Agregar los hijos a la lista con el nivel incrementado
+                if (nodo.hijoIzquierdo != null)
+                {
+                    lista.Add((nodo.hijoIzquierdo, nivel + 1));
+                }
+
+                if (nodo.hijoDerecho != null)
+                {
+                    lista.Add((nodo.hijoDerecho, nivel + 1));
+                }
+            }
+        }
+
+
+
+    }
 }

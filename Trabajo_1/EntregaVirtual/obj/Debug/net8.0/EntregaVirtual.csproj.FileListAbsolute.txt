@@ -1,0 +1,15 @@
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\EntregaVirtual\bin\Debug\net8.0\EntregaVirtual.exe
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\EntregaVirtual\bin\Debug\net8.0\EntregaVirtual.deps.json
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\EntregaVirtual\bin\Debug\net8.0\EntregaVirtual.runtimeconfig.json
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\EntregaVirtual\bin\Debug\net8.0\EntregaVirtual.dll
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\EntregaVirtual\bin\Debug\net8.0\EntregaVirtual.pdb
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\EntregaVirtual\obj\Debug\net8.0\EntregaVirtual.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\EntregaVirtual\obj\Debug\net8.0\EntregaVirtual.AssemblyInfoInputs.cache
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\EntregaVirtual\obj\Debug\net8.0\EntregaVirtual.AssemblyInfo.cs
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\EntregaVirtual\obj\Debug\net8.0\EntregaVirtual.csproj.CoreCompileInputs.cache
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\EntregaVirtual\obj\Debug\net8.0\EntregaVirtual.sourcelink.json
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\EntregaVirtual\obj\Debug\net8.0\EntregaVirtual.dll
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\EntregaVirtual\obj\Debug\net8.0\refint\EntregaVirtual.dll
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\EntregaVirtual\obj\Debug\net8.0\EntregaVirtual.pdb
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\EntregaVirtual\obj\Debug\net8.0\EntregaVirtual.genruntimeconfig.cache
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\EntregaVirtual\obj\Debug\net8.0\ref\EntregaVirtual.dll

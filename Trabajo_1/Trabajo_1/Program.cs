@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Runtime.Versioning;
+using System.Threading;
 namespace Trabajo_1
 {
 
@@ -32,8 +34,16 @@ namespace Trabajo_1
 	
 	        Console.WriteLine("\nRecorrido postorden:");
 	        raiz.postorden();
-	        
-	        Console.ReadKey();
+
+			Console.WriteLine("\nCantidad de hojas:");
+			int a = raiz.contarHojas();
+			Console.WriteLine(a);
+
+			Console.WriteLine("\nRecorrido entre niveles: ");
+            raiz.recorridoEntreNiveles(0, 2);
+
+
+            Console.ReadKey();
 		}
 	}
 }

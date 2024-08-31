@@ -1,8 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-# SharpDevelop 4.4
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trabajo_1", "Trabajo_1.csproj", "{44A73645-AC38-41FC-960B-076A8434973F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntregaVirtual", "..\EntregaVirtual\EntregaVirtual.csproj", "{36728109-7716-40DD-90CC-D478F68E7FCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,9 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{44A73645-AC38-41FC-960B-076A8434973F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44A73645-AC38-41FC-960B-076A8434973F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44A73645-AC38-41FC-960B-076A8434973F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A73645-AC38-41FC-960B-076A8434973F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44A73645-AC38-41FC-960B-076A8434973F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A73645-AC38-41FC-960B-076A8434973F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36728109-7716-40DD-90CC-D478F68E7FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36728109-7716-40DD-90CC-D478F68E7FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36728109-7716-40DD-90CC-D478F68E7FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36728109-7716-40DD-90CC-D478F68E7FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0516CCD2-028C-40B5-BAC4-5E1FD898CFC2}
 	EndGlobalSection
 EndGlobal

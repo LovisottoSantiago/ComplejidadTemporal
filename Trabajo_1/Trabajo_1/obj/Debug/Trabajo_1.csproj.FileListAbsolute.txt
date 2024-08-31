@@ -1,5 +1,7 @@
 C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\Trabajo_1\bin\Debug\Trabajo_1.exe
 C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\Trabajo_1\bin\Debug\Trabajo_1.pdb
-C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\Trabajo_1\obj\Debug\Trabajo_1.csprojResolveAssemblyReference.cache
 C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\Trabajo_1\obj\Debug\Trabajo_1.exe
 C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\Trabajo_1\obj\Debug\Trabajo_1.pdb
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\Trabajo_1\bin\Debug\Trabajo_1.exe.config
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\Trabajo_1\obj\Debug\Trabajo_1.csproj.AssemblyReference.cache
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_1\Trabajo_1\obj\Debug\Trabajo_1.csproj.CoreCompileInputs.cache
