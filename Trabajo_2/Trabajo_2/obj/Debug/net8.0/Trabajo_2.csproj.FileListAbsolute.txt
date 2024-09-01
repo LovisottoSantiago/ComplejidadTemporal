@@ -1,0 +1,15 @@
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_2\Trabajo_2\bin\Debug\net8.0\Trabajo_2.exe
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_2\Trabajo_2\bin\Debug\net8.0\Trabajo_2.deps.json
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_2\Trabajo_2\bin\Debug\net8.0\Trabajo_2.runtimeconfig.json
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_2\Trabajo_2\bin\Debug\net8.0\Trabajo_2.dll
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_2\Trabajo_2\bin\Debug\net8.0\Trabajo_2.pdb
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_2\Trabajo_2\obj\Debug\net8.0\Trabajo_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_2\Trabajo_2\obj\Debug\net8.0\Trabajo_2.AssemblyInfoInputs.cache
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_2\Trabajo_2\obj\Debug\net8.0\Trabajo_2.AssemblyInfo.cs
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_2\Trabajo_2\obj\Debug\net8.0\Trabajo_2.csproj.CoreCompileInputs.cache
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_2\Trabajo_2\obj\Debug\net8.0\Trabajo_2.sourcelink.json
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_2\Trabajo_2\obj\Debug\net8.0\Trabajo_2.dll
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_2\Trabajo_2\obj\Debug\net8.0\refint\Trabajo_2.dll
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_2\Trabajo_2\obj\Debug\net8.0\Trabajo_2.pdb
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_2\Trabajo_2\obj\Debug\net8.0\Trabajo_2.genruntimeconfig.cache
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Trabajo_2\Trabajo_2\obj\Debug\net8.0\ref\Trabajo_2.dll
