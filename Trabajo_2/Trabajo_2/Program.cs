@@ -14,8 +14,11 @@ public class Program {
         // Crear instancia de Heap
         Console.WriteLine("\n\nCreando Max Heap:");
         Heap maxHeap = new Heap(arr, true); // Max Heap
-
         maxHeap.ImprimirArbol();
+
+        Console.WriteLine("\n\nCreando Min Heap:");
+        Heap minHeap = new Heap(arr, false); // Min Heap
+        minHeap.ImprimirArbol();
 
         Console.ReadKey();
     }
