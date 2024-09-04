@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{2F4B35E7-614C-4CFD-8AF5-FEC1AE11603B}|Trabajo_2.csproj|solutionrelative:heap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F4B35E7-614C-4CFD-8AF5-FEC1AE11603B}|Trabajo_2.csproj|c:\\users\\lovidev\\documents\\github\\complejidadtemporal\\trabajo_2\\trabajo_2\\arbolgeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F4B35E7-614C-4CFD-8AF5-FEC1AE11603B}|Trabajo_2.csproj|solutionrelative:arbolgeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2F4B35E7-614C-4CFD-8AF5-FEC1AE11603B}|Trabajo_2.csproj|c:\\users\\lovidev\\documents\\github\\complejidadtemporal\\trabajo_2\\trabajo_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F4B35E7-614C-4CFD-8AF5-FEC1AE11603B}|Trabajo_2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -36,7 +32,7 @@
               "RelativeDocumentMoniker": "Heap.cs",
               "ToolTip": "C:\\Users\\Lovidev\\Documents\\GitHub\\ComplejidadTemporal\\Trabajo_2\\Trabajo_2\\Heap.cs",
               "RelativeToolTip": "Heap.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T17:54:06.92Z",
               "EditorCaption": ""
@@ -44,25 +40,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ArbolGeneral.cs",
-              "DocumentMoniker": "C:\\Users\\Lovidev\\Documents\\GitHub\\ComplejidadTemporal\\Trabajo_2\\Trabajo_2\\ArbolGeneral.cs",
-              "RelativeDocumentMoniker": "ArbolGeneral.cs",
-              "ToolTip": "C:\\Users\\Lovidev\\Documents\\GitHub\\ComplejidadTemporal\\Trabajo_2\\Trabajo_2\\ArbolGeneral.cs",
-              "RelativeToolTip": "ArbolGeneral.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:51:44.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lovidev\\Documents\\GitHub\\ComplejidadTemporal\\Trabajo_2\\Trabajo_2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Lovidev\\Documents\\GitHub\\ComplejidadTemporal\\Trabajo_2\\Trabajo_2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T17:11:36.341Z",
               "EditorCaption": ""

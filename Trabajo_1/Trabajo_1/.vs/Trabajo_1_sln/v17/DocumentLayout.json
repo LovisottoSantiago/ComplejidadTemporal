@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{44A73645-AC38-41FC-960B-076A8434973F}|Trabajo_1.csproj|solutionrelative:profundidaddearbolbinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44A73645-AC38-41FC-960B-076A8434973F}|Trabajo_1.csproj|C:\\Users\\Lovidev\\Documents\\GitHub\\ComplejidadTemporal\\Trabajo_1\\Trabajo_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44A73645-AC38-41FC-960B-076A8434973F}|Trabajo_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44A73645-AC38-41FC-960B-076A8434973F}|Trabajo_1.csproj|c:\\users\\lovidev\\documents\\github\\complejidadtemporal\\trabajo_1\\trabajo_1\\arbolbinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A73645-AC38-41FC-960B-076A8434973F}|Trabajo_1.csproj|solutionrelative:arbolbinario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArbolBinario.cs",
+              "DocumentMoniker": "C:\\Users\\Lovidev\\Documents\\GitHub\\ComplejidadTemporal\\Trabajo_1\\Trabajo_1\\ArbolBinario.cs",
+              "RelativeDocumentMoniker": "ArbolBinario.cs",
+              "ToolTip": "C:\\Users\\Lovidev\\Documents\\GitHub\\ComplejidadTemporal\\Trabajo_1\\Trabajo_1\\ArbolBinario.cs",
+              "RelativeToolTip": "ArbolBinario.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAqwGoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T17:27:37.768Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -32,22 +45,9 @@
               "RelativeDocumentMoniker": "ProfundidadDeArbolBinario.cs",
               "ToolTip": "C:\\Users\\Lovidev\\Documents\\GitHub\\ComplejidadTemporal\\Trabajo_1\\Trabajo_1\\ProfundidadDeArbolBinario.cs",
               "RelativeToolTip": "ProfundidadDeArbolBinario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T11:57:37.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lovidev\\Documents\\GitHub\\ComplejidadTemporal\\Trabajo_1\\Trabajo_1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Lovidev\\Documents\\GitHub\\ComplejidadTemporal\\Trabajo_1\\Trabajo_1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAowEcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T14:08:32.992Z",
               "EditorCaption": ""
             }
           ]
