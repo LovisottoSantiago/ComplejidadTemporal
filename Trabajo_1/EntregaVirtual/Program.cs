@@ -4,7 +4,7 @@ using System.Runtime.Versioning;
 using System.Threading;
 
 public class Program{
-    public static void Main(String[] args){
+    public static void Main(String[] args){  
 
         // Creo el árbol binario del ejemplo                
         ArbolBinario<int> raiz = new ArbolBinario<int>(1);  //       1
@@ -22,6 +22,10 @@ public class Program{
         nodo3.agregarHijoIzquierdo(nodo5);
         nodo3.agregarHijoDerecho(nodo6);
         nodo5.agregarHijoIzquierdo(nodo7);
+
+        // Probar el método incluye
+        Console.WriteLine("¿El árbol incluye al 3? " + raiz.incluye(3)); // True
+        Console.WriteLine("¿El árbol incluye al 6? " + raiz.incluye(9)); // False
 
         Console.Write("\nArbol normal, recorrido entre niveles: ");
         raiz.recorridoEntreNiveles(0, 3); // Recorrido: 1 - 2 - 3 - 4 - 5 - 6 - 7
