@@ -7,17 +7,16 @@ using System.Threading.Tasks;
 
 namespace Trabajo_2 {
 
-
     public class Heap{
 
-        private int[] datos; 
+        private List<int> datos;
         private bool tipoHeap; // True si es Max, False si es Min
         private int tamaño;
 
-        public Heap(int[] datos, bool tipoHeap) {
-            this.datos = datos;
+        public Heap(int[] array, bool tipoHeap) {
+            this.datos = new List<int>(array);
             this.tipoHeap = tipoHeap;
-            this.tamaño = datos.Length;
+            this.tamaño = array.Length;
             buildHeap(); // El constructor inicializa la Heap
         }
 
@@ -76,24 +75,43 @@ namespace Trabajo_2 {
             }
         }
 
-        public bool agregar() {
-            return false;
-        }
+        public bool agregar(int elemento) {
+            datos.Add(elemento); // Agrega el elemento al final de la lista
+            int padre = tamaño / 2;
+
+            if (tipoHeap) { // si es MaxHeap
+                while (datos[tamaño] > datos[padre]) {
+                    intercambio(tamaño, padre);
+                    // Luego de hacer el intercambio
+                    tamaño = padre; // tamaño ahora es la pos del elemento que acabo de intercambiar
+                    padre = tamaño / 2; // recalculo la pos del padre
+                }
+            }
+            else { // si es MinHeap
+                while (datos[tamaño] < datos[padre]) {
+                    intercambio(tamaño, padre);
+                    tamaño = padre;
+                    padre = tamaño / 2;
+                }
+            }
+                return true;
+            }
 
         public Heap eliminar() {
+            int x = tope();
+            datos.Remove(datos[0]);
+            tamaño--;   
             return this;
         }
 
-        public Heap tope() {
-            return this;
+        public int tope() {
+            if (tamaño == 0) throw new InvalidOperationException("Heap vacío");
+            return datos[0];
         }
 
         public bool esVacia() {
-            return datos.Count() == 0;
+            return tamaño == 0;
         }
-
-
-
 
         // <-- Ejercicio 2: Fin -- >
 
