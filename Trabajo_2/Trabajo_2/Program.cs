@@ -4,6 +4,8 @@ using Trabajo_2;
 public class Program {
     public static void Main(string[] args) {
 
+   
+         /* Pruebas para ver que todo funcione correctamente
         Console.WriteLine("Ejemplo de lista: ");
         int[] arr = { 1, 3, 5, 4, 6, 13, 10, 9, 8, 15, 17 };
 
@@ -35,6 +37,22 @@ public class Program {
         Console.WriteLine("\nPrueba del metodo eliminar con MaxHeap: ");
         maxHeap.eliminar();
         maxHeap.ImprimirArbol();
+         */
+
+
+        // Ejemplo para resolver el entregable
+        Console.WriteLine("Heap Binaria y Arbol General: ");
+        Console.WriteLine("A partir de la siguiente MinHeap almacenada en el vector:");
+        int[] arr2 = { 12, 15, 20, 16, 24, 23, 34, 18 };
+        Heap minHeap2 = new Heap(arr2, false); // Min Heap
+        minHeap2.ImprimirArbol();
+        Console.WriteLine("Inserte las claves 14, 10 y 22");
+
+        Console.WriteLine("\nDespués del método agregar: ");
+        minHeap2.agregar(14);
+        minHeap2.agregar(10);
+        minHeap2.agregar(22);
+        minHeap2.ImprimirArbol();
 
         Console.ReadKey();
     }

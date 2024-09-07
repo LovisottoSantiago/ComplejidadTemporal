@@ -10,17 +10,17 @@ namespace Trabajo_2 {
     public class Heap{
 
         private List<int> datos;
-        private bool tipoHeap; // True si es Max, False si es Min
+        private bool tipoHeap; // True si es MaxHeap, False si es MinHeap
         private int tamaño;
 
         public Heap(int[] array, bool tipoHeap) {
             this.datos = new List<int>(array);
             this.tipoHeap = tipoHeap;
-            this.tamaño = array.Length;
+            this.tamaño = datos.Count;
             buildHeap(); // El constructor inicializa la Heap
         }
 
-        // <-- Ejercicio 2: Comienzo -- >
+        // <-- Ejercicio 2: Comienzo -- > Se tomará en cuenta que el indice será 1 (uno) en vez de 0 (cero).
         public void intercambio(int i, int j) {
             int temp = datos[i];
             datos[i] = datos[j];
@@ -30,10 +30,10 @@ namespace Trabajo_2 {
             public void heapify(int i) { //convertir una lista regular en una lista que cumple con las propiedades del heap.
 
                 int padre = i;
-                int hijoIzquierdo = 2 * i;
+                int hijoIzquierdo = 2 * i; // indice 1
                 int hijoDerecho = (2 * i) + 1;
 
-                if (tipoHeap) { // true  caso base: hijoIzquierdo < tamaño
+                if (tipoHeap) {
                     // Max Heap
                     if (hijoIzquierdo < tamaño && datos[hijoIzquierdo] > datos[padre]) {
                         padre = hijoIzquierdo;
@@ -77,29 +77,30 @@ namespace Trabajo_2 {
 
         public bool agregar(int elemento) {
             datos.Add(elemento); // Agrega el elemento al final de la lista
-            int padre = tamaño / 2;
+            int i = datos.Count; // Índice basado en 1 del nuevo elemento
+            int padre = i / 2; // Índice del padre basado en 1
 
-            if (tipoHeap) { // si es MaxHeap
-                while (datos[tamaño] > datos[padre]) {
-                    intercambio(tamaño, padre);
-                    // Luego de hacer el intercambio
-                    tamaño = padre; // tamaño ahora es la pos del elemento que acabo de intercambiar
-                    padre = tamaño / 2; // recalculo la pos del padre
+            if (tipoHeap) { // MaxHeap
+                while (i > 1 && datos[i - 1] > datos[padre - 1]) {
+                    intercambio(i - 1, padre - 1);
+                    i = padre;
+                    padre = i / 2;
                 }
             }
-            else { // si es MinHeap
-                while (datos[tamaño] < datos[padre]) {
-                    intercambio(tamaño, padre);
-                    tamaño = padre;
-                    padre = tamaño / 2;
+            else { // MinHeap
+                while (i > 1 && datos[i - 1] < datos[padre - 1]) {
+                    intercambio(i - 1, padre - 1);
+                    i = padre;
+                    padre = i / 2;
                 }
             }
-                return true;
-            }
+
+            return true;
+        }
 
         public Heap eliminar() {
             int x = tope();
-            datos.Remove(datos[0]);
+            datos.Remove(datos[x]);
             tamaño--;   
             return this;
         }
