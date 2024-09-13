@@ -78,6 +78,83 @@ namespace Trabajo_2 {
         }
 
 
+        public void porNiveles() {
+            Queue<ArbolGeneral<T>> cola = new Queue<ArbolGeneral<T>>() { };
+            ArbolGeneral<T> arbolAuxiliar;
+
+            cola.Enqueue(this); // estoy encolando el árbol entero
+
+            while (cola.Count != 0) {
+                arbolAuxiliar = cola.Dequeue();                
+                Console.Write(arbolAuxiliar.getDatoRaiz() + " ");
+
+                foreach (var hijo in arbolAuxiliar.getHijos()) {
+                    cola.Enqueue(hijo);
+                }
+            }
+        }
+
+
+        public int ancho() {
+            Queue<ArbolGeneral<T>> cola = new Queue<ArbolGeneral<T>>() { };
+            ArbolGeneral<T> arbolAuxiliar;
+
+            int ancho = 0; // Lleva la cuenta del ancho máximo encontrado
+            int contador = 0; // Cuenta los árboles en el nivel actual
+
+            cola.Enqueue(this); // Encolamos el árbol entero (la raíz)
+            cola.Enqueue(null); // Encolamos el separador de nivel
+
+            while (cola.Count != 0) {
+                arbolAuxiliar = cola.Dequeue(); // Desencolamos el primer elemento
+
+                // Si encontramos el separador (fin del nivel actual)
+                if (arbolAuxiliar == null) {
+                    if (contador > ancho) {
+                        ancho = contador;
+                    }
+                    contador = 0; // Reiniciamos el contador para el siguiente nivel
+
+                    // Si hay más nodos en la cola, encolamos otro separador
+                    if (cola.Count != 0) {
+                        cola.Enqueue(null);
+                    }
+                }
+                // Si es un nodo del árbol
+                else {
+                    contador++; // Incrementamos el contador del nivel actual
+
+                    // Encolamos los hijos del nodo actual
+                    foreach (var hijo in arbolAuxiliar.getHijos()) {
+                        cola.Enqueue(hijo);
+                    }
+                }
+            }
+
+            return ancho;
+        }
+
+
+        public int calcularCaudal(int caudal) {
+            
+            if (this.esHoja()) {
+                return caudal;
+            }
+            int caudalMinimo = caudal;
+            foreach(var hijo in this.getHijos()) {
+                int caudalIndividual = caudal / getHijos().Count();
+
+                int caudalHijo = hijo.calcularCaudal(caudalIndividual);
+
+                if (caudalHijo < caudalMinimo) {
+                    caudalMinimo = caudalHijo;                
+                }
+
+            }
+
+            return caudalMinimo;
+        }
+
 
 
     }

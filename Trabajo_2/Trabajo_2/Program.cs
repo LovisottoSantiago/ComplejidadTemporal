@@ -70,15 +70,26 @@ public class Program {
         nodoB.agregarHijo(nodoD);
         nodoB.agregarHijo(nodoE);
         nodoC.agregarHijo(nodoF);
+        nodoC.agregarHijo(nodoG);
 
-        raiz.recorrerPreorden();
-        Console.WriteLine(" ");
         int a = raiz.altura();
         Console.WriteLine("La altura del árbol es: " + a);
         Console.WriteLine(" ");
-        int nivel = raiz.nivel(nodoG.getDatoRaiz());
+        int nivel = raiz.nivel(nodoC.getDatoRaiz());
         Console.WriteLine("El n° de nodos hasta la raíz es de: " + nivel);
 
+
+        Console.WriteLine("\nRecorrido por niveles: ");
+        raiz.porNiveles();
+
+        int x = raiz.ancho();
+        Console.WriteLine("\nSu ancho es " + x);
+
+        int caudal = raiz.calcularCaudal(1000);
+        Console.WriteLine("\nEl caudal es: " + caudal);
+
         Console.ReadKey();
+
+
     }
 }
