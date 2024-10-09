@@ -1,0 +1,7 @@
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Entrega_Grafos\EntregaGrafos\bin\Debug\EntregaGrafos.exe
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Entrega_Grafos\EntregaGrafos\bin\Debug\EntregaGrafos.pdb
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Entrega_Grafos\EntregaGrafos\obj\Debug\EntregaGrafos.exe
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Entrega_Grafos\EntregaGrafos\obj\Debug\EntregaGrafos.pdb
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Entrega_Grafos\EntregaGrafos\bin\Debug\EntregaGrafos.exe.config
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Entrega_Grafos\EntregaGrafos\obj\Debug\EntregaGrafos.csproj.AssemblyReference.cache
+C:\Users\Lovidev\Documents\GitHub\ComplejidadTemporal\Entrega_Grafos\EntregaGrafos\obj\Debug\EntregaGrafos.csproj.CoreCompileInputs.cache
